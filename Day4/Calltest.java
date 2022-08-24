@@ -15,7 +15,7 @@ public class Calltest {
 	@Test
 	public void divTest() {
 		Calculator c1 = new Calculator();
-	int x = c1.div(1, 1);
+	int x = c1.di(1, 1);
 	assertThrows(ArithmeticException.class,()->c1.div(1, 0),"it is an error");
 	}
 
