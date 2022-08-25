@@ -7,7 +7,7 @@ public int div(int a, int b) {
 public int  add(int a, int b) {
 	return a+b;
 }
-public static void main(String args[]) {
+public static void main(String[] args) {
 	Calculator c1 = new Calculator();
 	System.out.println(c1.div(10, 20));
 	System.out.println(c1.div(10, 20));

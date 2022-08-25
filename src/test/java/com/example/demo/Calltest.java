@@ -7,14 +7,14 @@ import org.junit.jupiter.api.Test;
 
 
 public class Calltest {
+
+	Calculator c1 = new Calculator();
 	@Test
-	public void addTest() {
-		Calculator c1 = new Calculator();
+	 void addTest() {
 		Assertions.assertEquals(4,c1.add(2, 2));
 	}
 	@Test
-	public void divTest() {
-		Calculator c1 = new Calculator();
+    void divTest() {
 	int x = c1.div(1, 1);
 	assertThrows(ArithmeticException.class,()->c1.div(1, 0),"it is an error");
 	}
